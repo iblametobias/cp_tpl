@@ -162,5 +162,4 @@ mod cp {
 
 fn main() {
     let mut ip = cp::StandardInputParser::load_stdin();
-
 }
