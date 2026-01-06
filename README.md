@@ -2,7 +2,7 @@
 ### Features
 #### Input parsing
 **`cp::StandardInputParser`**:
-- 2x faster than `cin`
+- 2x faster than C++'s `cin`
 - supports all types via generic `get<T: std::str::FromStr>()`
 - helper methods `get_T()` for `usize`, `u32`, `u64`, `isize`, `i32`, `i64`
 - parsing via default `.parse()`
